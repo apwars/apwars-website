@@ -1,7 +1,7 @@
 <template>
   <div class="menu">
 
-    <v-app-bar class="elevation-0" height="95">
+    <v-app-bar class="elevation-0" height="80">
       <v-container class="py-0 px-0 px-sm-2 fill-height">
         <router-link
           to="/"
@@ -10,7 +10,7 @@
           <img
             src="/images/project/logo-small.png"
             alt=""
-            height="70"
+            height="49"
             class="mr-1"
           />
         </router-link>

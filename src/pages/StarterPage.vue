@@ -7,8 +7,7 @@
             <v-img
               src="../../public/images/project/text-the-battle.png"
               alt="The battle for APRs"
-              max-width="511"
-              max-height="45"
+              max-width="357"
               class="mx-auto"
             ></v-img>
           </v-col>
@@ -17,8 +16,7 @@
             <v-img
               src="../../public/images/project/text-select.png"
               alt="Select your fraction, farm your army and battle for the Dragon's gold!"
-              max-width="842"
-              max-height="108"
+              max-width="589"
               class="mx-auto"
             ></v-img>
           </v-col>
@@ -29,15 +27,14 @@
             <v-img
               src="../../public/images/project/image-background-farm-now.png"
               alt="The battle for APRs"
-              max-width="1188"
-              max-height="578"
+              max-width="832"
               class="mx-auto"
             ></v-img>
             <v-img
+              @click="goToApp"
               src="../../public/images/project/btn-farm-now.png"
               alt="btn-farm-now"
-              max-width="354"
-              max-height="112"
+              max-width="248"
               class="mx-auto btn-farm-now cursor-pointer"
             ></v-img>
           </v-col>
@@ -52,8 +49,7 @@
             <v-img
               src="../../public/images/project/image-box.png"
               alt="The most innovative gamified farming protocol on BSC"
-              max-width="1387"
-              max-height="112"
+              max-width="971"
               class="mx-auto"
             ></v-img>
           </v-col>
@@ -68,8 +64,7 @@
             <v-img
               src="../../public/images/project/text-fractions.png"
               alt="fractions"
-              max-width="1176"
-              max-height="687"
+              max-width="823"
               class="mx-auto"
             ></v-img>
           </v-col>
@@ -84,8 +79,7 @@
             <v-img
               src="../../public/images/project/war-collectibles.png"
               alt="fractions"
-              max-width="1125"
-              max-height="143"
+              max-width="788"
               class="mx-auto"
             ></v-img>
           </v-col>
@@ -122,11 +116,11 @@ export default {
       collectibles: [
         {
           img: "nft-01.png",
-          name: "Dragonkiller",
+          name: "Dragon Slayer",
         },
         {
           img: "nft-02.png",
-          name: "Death by gold",
+          name: "Death by Gold",
         },
         {
           img: "nft-03.png",
@@ -134,11 +128,11 @@ export default {
         },
         {
           img: "nft-04.png",
-          name: "Hero of war",
+          name: "War Hero",
         },
         {
           img: "nft-05.png",
-          name: "Batalha Sangrenta",
+          name: "Bloody Battle",
         },
         {
           img: "nft-06.png",
@@ -150,11 +144,11 @@ export default {
         },
         {
           img: "nft-08.png",
-          name: "The legend - Human",
+          name: "The legend - Corp",
         },
         {
           img: "nft-09.png",
-          name: "The legend - Orc",
+          name: "The legend - Degen",
         },
       ],
     };

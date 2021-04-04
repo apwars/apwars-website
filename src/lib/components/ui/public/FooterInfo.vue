@@ -16,19 +16,11 @@
           </v-col>
           <v-col cols="12" md="3">
             <h5 class="text-h5 white--text mb-3">
-              Our policies
-            </h5>
-            <a class="white--text d-block text-decoration-none my-1" href="#">
-              Terms of Service
-            </a>
-            <a class="white--text d-block text-decoration-none my-1" href="#">
-              Privacy Policy
-            </a>
-          </v-col>
-          <v-col cols="12" md="3">
-            <h5 class="text-h5 white--text mb-3">
               Menu
             </h5>
+            <a class="white--text d-block text-decoration-none my-1" href="https://docs.apwars.farm/">
+              Documentation
+            </a>
             <a
               class="white--text d-block text-decoration-none my-1"
               href="mailto:contact@apwars.farms"
@@ -44,6 +36,13 @@
                 color="white lighten-3"
                 class="ml-2"
                 ><v-icon>mdi-file-document-outline</v-icon>
+              </v-btn>
+              <v-btn
+                @click="goToTelegram()"
+                icon
+                color="white lighten-3"
+                class="ml-2"
+                ><v-icon>mdi-telegram</v-icon>
               </v-btn>
               <v-btn
                 @click="goToTwitter()"
@@ -72,11 +71,15 @@
 export default {
   methods: {
     goToWhitepaper() {
-      window.location = "/whitepaper/whitepaper-v1.0.0.pdf";
+      window.location = "https://medium.com/apwars";
+    },
+
+    goToTelegram() {
+      window.location = "https://t.me/apwars";
     },
 
     goToTwitter() {
-      window.location = "https://twitter.com/@apwars";
+      window.location = "https://twitter.com/apwars";
     },
 
     goToGithub() {
